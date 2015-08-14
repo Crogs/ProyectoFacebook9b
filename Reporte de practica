@@ -1,0 +1,24 @@
+
+REPORTE DE PRÁCTICA
+
+La aplicación contiene tres clases de las cuales 2 tienen una funcionalidad primordial dentro del proyecto, “IngresaComoDeveloper.java” y “PublicacionesFacebook” que se encargan de hacer la funcionalidad total de la app, a continuación se describirá cada una de las tres clases desarrolladas.
+
+Facebook.java
+Esta clase es la encargada de iniciar la aplicación ya que es la clase main y dentro del método main se ejecuta una sola instrucción que invoca a la clase “IngresaComoDeveloper.java” que se describirá más adelante, como anteriormente se mencionó dentro del main de esta clase se invoca la interfaz de la clase “IngresaComoDeveloper.java” para poder ingresar como developer o bien como un usuario mas, para iniciar con otra cuenta, esta tendrá que estar dada de alta en https://developers.facebook.com.
+
+IngresarComoDeveloper.java
+En esta clase se desarrolló una interfaz donde se da a elegir si se iniciara sesión en la App con otra cuenta dando como parámetros de entrada el appId, appSecret y accessToken, ingresando estos parámetros se podrá iniciar sesión en la app presionando el botón OK, si es que no se tuviera una cuenta, la aplicación tiene una cuenta local por default para lo cual se colocó un botón CUENTA ATUAL donde se indica que se iniciara sesión con la cuenta local de la app.
+
+PublicacionesFacebook.java.
+Esta clase también contiene una interfaz, en esta se dan detalles como:
+•	Lista de amigos
+•	Post del amigo elegido.
+•	Numero de post requeridos.
+•	Detalles del post.
+•	Comentarios.
+•	Likes.
+•	Foto del post.
+•	Detalles de la cuenta actual (si se eligió la cuenta).
+
+Esta clase funciona con dos métodos constructores dependiendo de la forma en que se eligió iniciar sesión, como invitado o bien la cuenta actual.
+
